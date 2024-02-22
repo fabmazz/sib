@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-n-publish:
-    name: Build and publish to PyPI
+    name: Build wheel and publish release
     runs-on: ubuntu-latest
 
     strategy:
